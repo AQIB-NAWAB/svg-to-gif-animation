@@ -1,0 +1,25 @@
+{
+  "name": "svg-to-apng",
+  "version": "1.0.0",
+  "description": "Convert animated SVG files to Animated PNG (APNG) format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "convert": "node index.js"
+  },
+  "keywords": [
+    "svg",
+    "apng",
+    "animation",
+    "converter",
+    "puppeteer",
+    "ffmpeg"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "puppeteer": "^23.0.0"
+  }
+}
